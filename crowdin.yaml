@@ -1,0 +1,6 @@
+preserve_hierarchy: true
+files:
+  - source: /**/*.md
+    translation: /translated/%locale%/%file_name%_%locale%.md
+  - source: /*.md
+    translation: /translated/%locale%/%file_name%_%locale%.md
